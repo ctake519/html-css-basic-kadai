@@ -39,10 +39,13 @@ main {
 }
 
 h2::before {
-    font-size: 25px ;
-    border-bottom: dotted 3px rgb(236,122,122) ;
     content: "●";
     color: rgb(239, 111, 139) ;
+}
+
+h2 {
+    font-size: 25px ;
+    border-bottom: dotted 3px rgb(236,122,122) ;
 }
 
 .contents p:nth-of-type(2)::first-letter {
